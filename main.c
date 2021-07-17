@@ -3,7 +3,6 @@
 #include <libnet.h>
 
 #define PAYLOAD_PRINT_LENGTH 8
-#define TCP_OPTION_SIZE 12
 
 struct packet {
   struct pcap_pkthdr* header;
